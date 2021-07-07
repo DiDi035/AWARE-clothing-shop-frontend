@@ -1,0 +1,37 @@
+.listCon {
+  width: 87%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  height: 345px;
+  flex: 0 1 20%;
+}
+
+@media all and (max-width: 1110px) {
+  .listItem {
+    flex: 0 1 25%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .listItem {
+    flex: 0 1 50%;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .listItem {
+    flex: 0 1 100%;
+  }
+}
+
+.sortCon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.8%;
+  padding-bottom: 1%;
+}

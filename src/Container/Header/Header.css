@@ -1,0 +1,230 @@
+@import "../../assets/fonts/Fonts.css";
+@import "../../assets/colors/Colors.css";
+
+.navCoin {
+  height: 69px;
+  width: 100%;
+}
+
+input {
+  border: none;
+  width: 130px;
+  padding-top: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchCon {
+  border-radius: 30px;
+  width: 181px;
+  height: 35px;
+  border: 1px var(--greyish-two) solid;
+  padding: 0.2rem 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  padding: 0.2rem 2rem;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+.regBtn {
+  border: none;
+  background-color: white;
+  transition: 0.2s ease;
+}
+
+.regBtn:hover {
+  background-color: var(--greyish-two);
+  color: white;
+}
+
+.logBtn {
+  border: none;
+  background-color: white;
+  border: 2px var(--primary) solid;
+  color: var(--primary);
+  font-weight: bolder;
+  border-radius: 30px;
+  transition: 0.2s ease;
+}
+
+.logBtn:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.cartBtn {
+  border: none;
+  background-color: white;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e902";
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+
+.icon-cart:before {
+  content: "\e900";
+  font-size: 24px;
+}
+
+.icon-cart {
+  transition: ease 0.2s;
+}
+
+.icon-cart:hover {
+  color: var(--primary);
+}
+
+.downMenuCoin {
+  height: 43px;
+  width: 100%;
+}
+
+.bottomBorder {
+  width: 100%;
+  border-bottom: 1px #ececec solid;
+}
+
+.ava {
+  background-position: center;
+  background-size: contain;
+  border-radius: 90px;
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  border: var(--primary) solid 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ava:hover {
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 99 !important;
+  right: 60%;
+  box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.14);
+  border: solid 0.5px var(--white-six);
+  width: 181px;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dowpdownItem {
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: var(--white-five);
+}
+.dowpdownItem:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.oval {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 60%;
+  left: 53%;
+}
+
+.cartDropdown {
+  position: absolute;
+  z-index: 100 !important;
+  width: 270px;
+  background-color: var(--white-five);
+  box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.14);
+  border: solid 0.5px var(--white-six);
+  top: 85%;
+  right: 47%;
+}
+
+.cartDowpdownItem {
+  width: 100%;
+  height: 77.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cartItems:hover {
+  background-color: var(--white-six);
+}
+
+.cartImg {
+  height: 100%;
+  flex: 0 1 25%;
+  background-image: url("../../assets/images/homePg_item_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cartInfo {
+  padding-left: 0.5rem;
+  height: 100%;
+  flex: 0 1 75%;
+}
+
+.viewCart {
+  color: var(--primary);
+}
+
+.viewCart:hover {
+  color: var(--bright-orange);
+}
+
+.cartPrice {
+  flex: 0 1 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cartFilter {
+  flex: 0 1 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+}

@@ -1,0 +1,34 @@
+@import url("../../assets/colors/Colors.css");
+@import url("../../assets/fonts/Fonts.css");
+
+.sidebar {
+  height: 100%;
+  padding-right: 2.5rem;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 185px;
+}
+
+.cateList {
+  padding-top: 2rem;
+}
+
+.linebreak {
+  height: 0.1px;
+  background-color: var(--brown-grey);
+}
+
+.headerLinebreak {
+  width: 20px;
+}
+
+.listLinebreak {
+  width: 101px;
+}
+
+.filterLinebreak {
+  width: 185px;
+  background-color: var(--pinkish-grey);
+}

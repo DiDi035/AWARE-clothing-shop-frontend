@@ -1,0 +1,23 @@
+@import "../../assets/fonts/Fonts.css";
+@import "../../assets/colors/Colors.css";
+
+.submitFormBtn {
+  width: 395px;
+  height: 49px;
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+  transition: 0.2s ease;
+}
+
+.submitFormBtn:disabled {
+  background-color: var(--white-four) !important;
+}
+
+.submitFormBtn:hover {
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.submitFormBtn:disabled:hover {
+  box-shadow: none !important;
+}
